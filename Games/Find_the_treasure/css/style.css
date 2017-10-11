@@ -1,0 +1,17 @@
+
+h1 {
+	margin: 0;
+	text-align: center;
+}
+.img_center {
+	text-align: center;
+}
+img {
+	width: 950px;
+	height: 500px;
+	margin: 5px auto;
+}
+p {
+	text-align: center;
+	font-size: 20px;
+}

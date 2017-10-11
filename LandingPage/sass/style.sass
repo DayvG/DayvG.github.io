@@ -1,0 +1,209 @@
+// Variables:
+$hover: #F6AE48 /*Hover color*/
+
+
+*
+	margin: 0
+	padding: 0
+
+body
+	font-family: "Roboto"
+	font-size: 16px
+
+h1 
+	font-family: "RobotoBold", Arial, sans-serif
+	font-size: 48px
+
+
+
+// <-- HEADER -->
+header
+	background-image: url(../img/bg_top.png)
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	
+
+	.header_top
+		color: #fff
+
+		h1 
+			text-align: center
+			margin: 0
+			padding: 150px 110px 0
+			text-transform: uppercase
+
+		p
+			font-family: "RobotoLight", sans-serif
+			font-size: 24px
+			text-align: center
+			padding: 30px 200px
+
+		.top_descr
+			max-width: 235px
+			height: 150px
+			margin: 20px auto
+			position: relative
+			background-image: url(../img/top_border.png)
+			background-repeat: no-repeat
+			background-size: contain
+						
+			
+			h1
+				text-align: center
+				margin: 0
+				padding: 27px 0 0
+
+
+			p
+				text-align: center
+				font-size: 1.125em
+				margin: 0
+				padding: 0
+
+			.top_icon
+				background-image: url(../img/ic_set_top.jpg)
+				background-repeat: no-repeat
+				top: -20px
+				left: 93px
+				width: 45px
+				height: 50px
+				position: absolute
+
+			
+			.one
+				background-position: 1px -163px
+			.two
+				background-position: 1px -325px
+
+
+
+/*<-- MENU -->*/
+.main_mnu_button
+	border: none
+	background-color: transparent
+	font-size: 20px
+	color: #fff
+	padding: 11px 10px 9px
+	position: absolute
+	top: 0
+	right: 10%
+
+ul.navbar
+	text-align: right
+	padding-right: 5%
+	line-height: 80px
+	width: 100%
+	position: relative
+	height: 80px
+	text-transform: uppercase
+	border-bottom: 2px solid #ADADAD
+	z-index: 12
+
+	li
+		list-style-type: none
+		display: inline-block
+		margin-left: 30px
+		
+
+		a
+			font-size: 20px
+			font-family: "RobotoMedium"
+			color: #000
+			text-decoration: none
+
+			&.active
+				color: $hover
+
+			&:hover
+				text-decoration: underline
+				color: $hover
+				transition: all 0.3s
+
+
+
+/*<-- STUDIA -->*/
+.studia_descr
+	background-image: url(../img/bg_studia.png)
+	background-repeat: no-repeat
+	background-position: center center
+
+	h1
+		font-family: "RobotoRegular"
+		padding-top: 50%
+		
+	p
+		font-family: "RobotoRegular"
+		font-size: 20px
+		padding: 15% 10%
+
+.price_descr
+	margin-bottom: 35%
+
+	.start, .advance, .support
+		position: relative
+		padding: 7%
+		&:hover
+			background-color: $hover
+			color: #fff
+			.icon_start, .icon_advance, .icon_support
+				background-image: url(../img/studia_item_hover.png)
+				
+		.icon_start, .icon_advance, .icon_support
+			background-image: url(../img/studia_item.png)
+			background-repeat: no-repeat
+			background-size: cover
+			width: 42px
+			height: 50px
+
+		.icon_advance
+			background-position: -337px
+
+		.icon_support
+			background-position: -640px
+
+		h4
+			font-family: "RobotoBold"
+			padding-bottom: 2%
+
+		p
+			margin-bottom: 7%
+
+		.price
+			font-size: 18px
+			border: 2px solid #fff
+			padding: 2% 4%
+			color: #fff
+			cursor: pointer
+			
+		.arrow
+			float: right
+			cursor: pointer
+			font-size: 1.5em
+			font-family: "RobotoLight"
+			margin-top: -2%
+			color: #fff		
+			
+
+
+/*<-- DEVELOPMENT -->*/
+.development
+	background-image: url(../img/development/bg_1.png)
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	color: #fff
+	overflow: hidden
+	
+
+	h1
+		text-transform: uppercase
+		font-size: 50px
+		margin-top: 130px
+		text-align: center
+		font-family: "RobotoBold", Arial, sans-serif
+
+	p
+		font-size: 24px
+		text-align: center
+		padding: 40px 200px 98px

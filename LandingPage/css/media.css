@@ -1,0 +1,178 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	header .header_top h1 {
+		text-align: center;
+		margin: 0;
+		padding: 70px 85px 0;
+		text-transform: uppercase;
+		font-size: 28px;
+	}
+	header .header_top p {
+		font-family: "RobotoLight", sans-serif;
+		font-size: 20px;
+		text-align: center;
+		padding: 15px 35px;
+	}
+	.studia_descr h1 {
+		padding-top: 41%;
+		font-size: 28px;
+	}
+	.studia_descr p {
+		font-size: 14px;
+		padding: 10% 5%;
+	}
+
+	.development h1{
+		font-size: 32px;
+		margin-top: 50px;
+	}
+	.development p {
+		font-size: 18px;
+		padding: 20px 140px 45px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header .header_top h1 {
+		text-align: center;
+		margin: 0;
+		padding: 45px 65px 0;
+		text-transform: uppercase;
+		font-size: 20px;
+	}
+	header .header_top p {
+		font-family: "RobotoLight", sans-serif;
+		font-size: 14px;
+		text-align: center;
+		padding: 15px 35px;
+	}
+	header .header_top .top_descr {
+		width: 149px;
+		height: 95px;
+		margin: 30px auto;
+	}
+	header .header_top .top_descr h1 {
+		font-size: 24px;
+		padding-top: 20px;
+	}
+	header .header_top .top_descr p {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	header .header_top .top_descr .top_icon {
+		background-image: url(../img/ic_set_top.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		top: -14px;
+		left: 58px;
+		width: 30px;
+		height: 45px;
+		position: absolute;
+	}
+	header .header_top .top_descr .one {
+		background-position: 1px -109px;
+	}
+	header .header_top .top_descr .two {
+		background-position: 1px -216px;
+	}
+	.menu ul.navbar {
+		display: none;
+		position: absolute;
+		top: 48px;
+		right: 10%;
+		line-height: 3em;
+		background-color: #FDEDFF;
+		width: 210px;
+		height: 265px;
+		padding-right: 2%;
+		border: 3px solid #7161B5;
+		border-radius: 5px 0 5px 5px;
+		z-index: 12;
+		
+	}
+	.menu ul.navbar li {
+		display: block;
+	}	
+	.studia_descr {
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+	.studia_descr h1 {
+		padding-top: 0;
+		font-size: 28px;
+		text-align: center;
+	}
+	.studia_descr p {
+		font-size: 14px;
+		padding: 0 0 10% 0;
+	}
+	
+	.price_descr {
+		margin-bottom: 10%
+	}
+	
+	.development h1{
+		font-size: 27px;
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+	.development p {
+		font-size: 15px;
+		padding: 15px 60px 20px;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.development h1{
+		font-size: 22px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	.development p {
+		font-size: 15px;
+		padding: 15px 30px 20px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

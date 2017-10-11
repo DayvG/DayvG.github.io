@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "RobotoBold", Arial, sans-serif;
+  font-size: 48px;
+}
+
+header {
+  background-image: url(../img/bg_top.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header .header_top {
+  color: #fff;
+}
+header .header_top h1 {
+  text-align: center;
+  margin: 0;
+  padding: 150px 110px 0;
+  text-transform: uppercase;
+}
+header .header_top p {
+  font-family: "RobotoLight", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding: 30px 200px;
+}
+header .header_top .top_descr {
+  max-width: 235px;
+  height: 150px;
+  margin: 20px auto;
+  position: relative;
+  background-image: url(../img/top_border.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header .header_top .top_descr h1 {
+  text-align: center;
+  margin: 0;
+  padding: 27px 0 0;
+}
+header .header_top .top_descr p {
+  text-align: center;
+  font-size: 1.125em;
+  margin: 0;
+  padding: 0;
+}
+header .header_top .top_descr .top_icon {
+  background-image: url(../img/ic_set_top.jpg);
+  background-repeat: no-repeat;
+  top: -20px;
+  left: 93px;
+  width: 45px;
+  height: 50px;
+  position: absolute;
+}
+header .header_top .top_descr .one {
+  background-position: 1px -163px;
+}
+header .header_top .top_descr .two {
+  background-position: 1px -325px;
+}
+
+/*<-- MENU --> */
+.main_mnu_button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: #fff;
+  padding: 11px 10px 9px;
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+
+ul.navbar {
+  text-align: right;
+  padding-right: 5%;
+  line-height: 80px;
+  width: 100%;
+  position: relative;
+  height: 80px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ADADAD;
+  z-index: 12;
+}
+ul.navbar li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 30px;
+}
+ul.navbar li a {
+  font-size: 20px;
+  font-family: "RobotoMedium";
+  color: #000;
+  text-decoration: none;
+}
+ul.navbar li a.active {
+  color: #F6AE48;
+}
+ul.navbar li a:hover {
+  text-decoration: underline;
+  color: #F6AE48;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/*<-- STUDIA --> */
+.studia_descr {
+  background-image: url(../img/bg_studia.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.studia_descr h1 {
+  font-family: "RobotoRegular";
+  padding-top: 50%;
+}
+.studia_descr p {
+  font-family: "RobotoRegular";
+  font-size: 20px;
+  padding: 15% 10%;
+}
+
+.price_descr {
+  margin-bottom: 35%;
+}
+.price_descr .start, .price_descr .advance, .price_descr .support {
+  position: relative;
+  padding: 7%;
+}
+.price_descr .start:hover, .price_descr .advance:hover, .price_descr .support:hover {
+  background-color: #F6AE48;
+  color: #fff;
+}
+.price_descr .start:hover .icon_start, .price_descr .start:hover .icon_advance, .price_descr .start:hover .icon_support, .price_descr .advance:hover .icon_start, .price_descr .advance:hover .icon_advance, .price_descr .advance:hover .icon_support, .price_descr .support:hover .icon_start, .price_descr .support:hover .icon_advance, .price_descr .support:hover .icon_support {
+  background-image: url(../img/studia_item_hover.png);
+}
+.price_descr .start .icon_start, .price_descr .start .icon_advance, .price_descr .start .icon_support, .price_descr .advance .icon_start, .price_descr .advance .icon_advance, .price_descr .advance .icon_support, .price_descr .support .icon_start, .price_descr .support .icon_advance, .price_descr .support .icon_support {
+  background-image: url(../img/studia_item.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 42px;
+  height: 50px;
+}
+.price_descr .start .icon_advance, .price_descr .advance .icon_advance, .price_descr .support .icon_advance {
+  background-position: -337px;
+}
+.price_descr .start .icon_support, .price_descr .advance .icon_support, .price_descr .support .icon_support {
+  background-position: -640px;
+}
+.price_descr .start h4, .price_descr .advance h4, .price_descr .support h4 {
+  font-family: "RobotoBold";
+  padding-bottom: 2%;
+}
+.price_descr .start p, .price_descr .advance p, .price_descr .support p {
+  margin-bottom: 7%;
+}
+.price_descr .start .price, .price_descr .advance .price, .price_descr .support .price {
+  font-size: 18px;
+  border: 2px solid #fff;
+  padding: 2% 4%;
+  color: #fff;
+  cursor: pointer;
+}
+.price_descr .start .arrow, .price_descr .advance .arrow, .price_descr .support .arrow {
+  float: right;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-family: "RobotoLight";
+  margin-top: -2%;
+  color: #fff;
+}
+
+/*<-- DEVELOPMENT --> */
+.development {
+  background-image: url(../img/development/bg_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+}
+.development h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-top: 130px;
+  text-align: center;
+  font-family: "RobotoBold", Arial, sans-serif;
+}
+.development p {
+  font-size: 24px;
+  text-align: center;
+  padding: 40px 200px 98px;
+}
+
+/*# sourceMappingURL=style.css.map */
